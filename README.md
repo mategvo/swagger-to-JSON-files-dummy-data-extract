@@ -5,10 +5,17 @@ Simple script that extracts dummy data from swagger documentation and creates JS
 ## Usage
 
 1. copy the javascript from spec_extract.js
-2. open console of your swagger documentation
+2. open your swagger documentation and javascript consle
 3. paste the contents, run the script
 4. copy the log entry
 5. CD in directory where you want the files to be generated and paste the log entry
+
+## Important
+
+* Some characters, like "@", "+", "'" are removed.
+* Doesn't work in iTerm
+
+## Sample results
 
 ```
 
