@@ -10,3 +10,36 @@ Simple script that extracts dummy data from swagger documentation and creates JS
 4. copy the log entry
 5. CD in directory where you want the files to be generated and paste the log entry
 
+```
+
+ echo '{
+  "data": {
+    "name": "John Doe",
+    "email": "johnexample.com",
+    "phone": "12041234567",
+    "profileImage": {
+      "original": {
+        "imageId": 0,
+        "url": "http://example.com/images/1234567.jpg",
+        "width": 400,
+        "height": 300,
+        "mimeType": "image/jpeg",
+        "averageColor": "bada55"
+      }
+    },
+    "coverImages": {
+      "original": {
+        "imageId": 0,
+        "url": "http://example.com/images/1234567.jpg",
+        "width": 400,
+        "height": 300,
+        "mimeType": "image/jpeg",
+        "averageColor": "bada55"
+      }
+    }
+  }
+}' >> usersuserId.json;
+
+
+
+```
